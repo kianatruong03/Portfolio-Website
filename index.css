@@ -1,0 +1,273 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(254, 254, 254);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px red;
+  }
+  to {
+    box-shadow: 0 0 20px red;
+  }
+}
+
+  nav {
+    float: right;
+    padding-right: 2%;
+    padding-top: 20px;
+    height: 140px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  nav ul {
+    float: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline;
+    position: relative;
+    top: 45px;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(227, 223, 223);
+  }
+
+  header{
+    background-image: url("https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1798&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.85);
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo{
+    width: 140px;
+    float: left;
+    padding-left: 4%;
+  }
+
+/*About Me*/
+.me{
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(51, 51, 51);
+  color: rgb(227, 223, 223);
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+}
+
+.hero {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+
+.column, .column2 {
+  flex: 1;
+  margin: 10px; 
+}
+
+@media (min-width: 768px) {
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .column, .column2 {
+      width: 48%;
+  }
+}
+
+.title {
+  margin-top: 0;
+}
+
+.title#projects {
+  margin-top: 50px; 
+}
+
+.about {
+  text-align: justify;
+}
+
+/* Style the contact icons */
+.contact-icons {
+  text-align: center;
+}
+
+.contact-icons i {
+  margin: 10px;
+  font-size: 2em; 
+}
+
+  .hero{
+    margin: 70px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+   }
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .programming{
+    width: 30em;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(213, 75, 66);
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgb(173, 162, 161);
+  }
+
+  .column2{
+    background-color: rgb(51, 51, 51);
+    color: rgb(227, 223, 223);
+    font-family: 'Titillium Web', sans-serif;
+    padding: 15px;
+  }
+
+  .about{
+    padding: 0px, 90px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .contact-icons{
+    margin: 0, 10px;
+    text-align: center;
+  }
+
+ /*Project CSS*/
+.title{
+  font-family: 'Titillium Web',sans-serif;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(51, 51, 51);
+  font-size: 30px;
+  color: rgb(227, 223, 223);;
+
+}
+
+.project-container {
+  padding: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+  background: rgb(227, 223, 223);;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-icons{
+  width:100%;
+  border-radius: 5px;
+  border: solid;
+  border-style: hidden;
+
+}
+
+.project-button{
+  background-color: rgb(51, 51, 51);
+  color: rgb(227, 223, 223);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+.description{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+button:hover {
+  background-color: rgb(213, 75, 66);
+}
+
+.contact-icons i:hover {
+  color: rgb(213, 75, 66); /* Change to the color you want on hover */
+}
+
+
+@media (min-width: 100%) {
+  .project-container {
+    justify-content: space-between;
+  }
+
+  .project {
+    flex: 1;
+  }
+}
+
+/*Footer*/
+footer{
+  background-color: rgb(51, 51, 51);
+  position: relative; 
+  padding: 10px; 
+  text-align: center;
+}
+
+.title-contact{
+  color: rgb(227, 223, 223);
+  font-family: 'Titillium Web',sans-serif;
+  padding: 30px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.information{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  color: rgb(227, 223, 223);
+}
+
+.icons {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(227, 223, 223);;
+}
+
+.copyright{
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(227, 223, 223);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.mobile {
+  position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    max-width: 100%; 
+    height: auto; 
+    opacity: 0.2;
+}
+
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="./Photos/portfolio-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Kiana | Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="./Photos/portfolio-logo.jpg" alt="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="me">About Me</h1>
+    <main class="project-container">
+        <section class="hero">
+            <div class="row">
+                <div class="column">
+                    <img class="programming" src="/Photos/programming.png">
+                </div>
+                <div class="column2">
+                    <h1 class="title">Who am I?</h1>
+                    <p class="about">An computer engineer seeking a challenging role to apply technical expertise in <strong>designing, developing, and optimizing innovative solutions</strong>.
+                        Dedicated to delivering <strong>high-quality results</strong>, collaborating with cross-functional teams, and staying current with emerging technologies to drive continuous improvement within the field of computer engineering. 
+                        Over the years, I've honed my skills in a wide array of programming languages, with a particular focus on languages like <strong>Java, JavaScript and React</strong> . 
+                        I have experience in <strong>developing robust applications, crafting efficient algorithms</strong>, and leveraging data structures to create scalable solutions.
+                        As my side job I create paintings of different games, scenery and situations.</p>
+                        <div class="contact-icons">
+                            <i class="fa-brands fa-linkedin fa-xl" onclick="window.open('https://www.linkedin.com/in/kiana-truong03/', '_blank')"></i>
+                            <i class="fa-brands fa-github fa-xl" onclick="window.open('https://github.com/kianatruong03', '_blank')"></i>
+                            <i class="fab fa-google"  onclick="window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank')"></i>
+                        </div>
+                    </div>
+            </div>
+            <div class="title" id="projects">
+                <h1>Projects</h1>
+            </div>
+        </section>
+        <section class="project single-column">
+            <img class="project-icons" src="/Photos/elmoBootStrap.JPG" alt="Project 1">
+            <h2>BootStrap Elmo</h2>
+            <p class="description">A web development project beginning with the design phase, utilizing Figma to conceptualize the layout and aesthetics of the webpage.
+                The combination of Figma and Bootstrap enabled an efficient workflow, allowing for a cohesive integration of design and development processes. 
+            </p>
+            <button class="project-button" onclick="window.open('https://github.com/kianatruong03/BootstrapSite', '_blank')">
+                <i class="fa-brands fa-github fa-2xl" alt="Icon"> GitHub</i> 
+            </button>
+            </section>
+
+        <section class="project single-column">
+            <img class="project-icons" src="/Photos/FuwaFuwaBakery.JPG" alt="Project 2">
+            <h2>Fuwa Fwua Bakery</h2>
+            <p class="description">The first web development project to create a e-commerce store, trying to understand layout and aesthetics of the webpage in my Senior year of Highschool.
+                The combination of HTML and CSS for a cohesive integration of design and development processes. 
+            </p>
+            <button class="project-button" onclick="window.open('https://github.com/kianatruong03/Fuwa-Fuwa-Bakery', '_blank')">
+                <i class="fa-brands fa-github fa-2xl" alt="Icon"> GitHub</i> 
+            </button>
+        </section>
+
+        <section class="project single-column">
+            <img class="project-icons" src="/Photos/WixPortfolio.JPG" alt="Project 3">
+            <h2>Thrive Wix Portfolio</h2>
+            <p class="description"> A program that wanted us to create a portfoilio using Wix to display research on companies and other information about us. 
+                Used prebuilt actions and dynamics provided to create an aesthetic layout for our work and assignments. 
+                This project is no longer being used but it's a good reference for beginner web developers. 
+            </p>
+            <button class="project-button" onclick="window.open('https://kianatruong03.wixsite.com/thrive-portfolio', '_blank')">
+                <i class="fa-brands fa-github fa-2xl" alt="Icon"> GitHub</i> 
+            </button>
+        </section>
+        
+        <section class="project single-column">
+            <img class="project-icons" src="https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2021/09/bookstore-backdrop.jpg" alt="Project 1">
+            <h2>Java Book Store</h2>
+            <p class="description"> Using Java created an E-Commerce Store that stores and records books, cds, and dvds that the user buys. 
+                It checks if the user has a membership and provides a discount to the purchase. 
+            </p>
+            <button class="project-button" onclick="window.open('https://github.com/kianatruong03/E-CommerceProject', '_blank')">
+                <i class="fa-brands fa-wix fa-2xl" alt="Icon"></i> 
+            </button>
+        </section>
+
+        <section class="project single-column">
+            <img class="project-icons" src="https://cdn.britannica.com/95/124395-004-3B484C8B/hand-cards-trump-spades.jpg" alt="Project 1">
+            <h2>Blackjack Game</h2>
+            <p class="description">Using Java to create a game of Blackjack that detects if the card is higher or lower. 
+                Than after it counts the number in hand to provide the status if you won or lost. 
+                It can be played with 2 players or a computer. 
+            </p>
+            <button class="project-button" onclick="window.open('https://github.com/kianatruong03/Blackjack', '_blank')">
+                <i class="fa-brands fa-github fa-2xl" alt="Icon"> GitHub</i> 
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contact" id="contact">
+            <img class="mobile" src="/Photos/mobile.png">
+            <h1 class="title-contact">Contact Me</h1>
+            <p class="information">Contact Information:</p>
+            <p class="information">Email: kianatruong03@gmail.com</p>
+            <p class="information">Phone: (704) 451-6871</p>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin fa-xl" onclick="window.open('https://www.linkedin.com/in/kiana-truong03/', '_blank')"></i>
+                <i class="fa-brands fa-github fa-xl" onclick="window.open('https://github.com/kianatruong03', '_blank')"></i>
+                <i class="fab fa-google"  onclick="window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank')"></i>
+            </div>
+        </section>
+        <p class="copyright">Made by Kiana Truong | &copy;2023Kiana</p>
+    </footer>
+</body>
+</html>
